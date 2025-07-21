@@ -1,16 +1,48 @@
-# untitled2
+# Chat App
 
-A new Flutter project.
+A Flutter chat application with Firebase integration.
+
+## Features
+
+- User authentication (login/register)
+- Real-time messaging
+- Chat rooms management
+- User search functionality
+- Firebase Firestore for data storage
+- Firebase Auth for authentication
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a Flutter chat application that demonstrates:
+- Firebase integration
+- Real-time messaging with Firestore
+- User authentication
+- Modern Flutter UI components
 
-A few resources to get you started if this is your first Flutter project:
+### Prerequisites
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter SDK
+- Firebase project setup
+- Android Studio / VS Code
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Installation
+
+1. Clone the repository
+2. Run `flutter pub get` to install dependencies
+3. Configure Firebase (add your `google-services.json` for Android)
+4. Run `flutter run` to start the application
+
+## Project Structure
+
+- `lib/components/` - Reusable UI components
+- `lib/models/` - Data models
+- `lib/pages/` - App screens/pages
+- `lib/services/` - Business logic and Firebase services
+- `lib/themes/` - App theming
+
+## Technologies Used
+
+- Flutter
+- Firebase Firestore
+- Firebase Authentication
+- Dart
